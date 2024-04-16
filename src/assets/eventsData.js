@@ -1,6 +1,6 @@
 import valorant from "./Events/valorantlogo.jpg";
 import threedm from "./Events/3dm.png";
-import FlyHigh from "./Events/FlyHigh.png";
+import fifa from "./Events/FlyHigh.png";
 import SpaceExpo from "./Events/SpaceExpo.png";
 import RoboRace from "./Events/RoboRace.png";
 import RelayRacing from "./Events/RelayRacing.png";
@@ -62,22 +62,28 @@ export const eventsData = [
     name: "Capture the Flag",
     category: "External",
     description:
-      "Joel John send me the details man",
+      "Are you ready to put your hacking skills to the test and compete against some of the best minds in the field? The Department of CSE is thrilled to invite you to participate in our upcoming Capture the Flag (CTF) event! Whether you 're a seasoned professional or just starting your journey in the world of hacking, this event is open to all skill levels. Join us for an exhilarating experience where you 'll have the opportunity to showcase your expertise in cybersecurity, problem-solving, and teamwork.",
     rules: [
-      "All teams must have at least 2 members and no more than 4 members. Prior Registraations must be given.",
-      "Do not open and view the clues prior to the announcement that the hunt has started.",
-      "Teams must stay together during the CTF and are encouraged to work together to solve the clues and retrieve the points from each location. Teams are encouraged to bring along a notepad so that they can note the answer once they’ve solved the clues.",
-      "Teams will be scored on the total value of the clues collected and the amount of time taken. Once all coins are collected teams must return to the finish in order to be counted as finished. Point values will be determined based on the difficulty of the clue.",
-      "Teams may or may not use smartphones or mobile internet devices.",
+      "Know the Rules: Understand the specific guidelines of the competition.",
+      "Be Ethical: Conduct yourself with integrity and avoid unethical behavior.",
+      "No Cheating: Play fair and refrain from using unauthorized tools or techniques.",
+      "Teamwork: Collaborate effectively with your teammates to solve challenges.",
+      "Respect Privacy: Maintain confidentiality and avoid sharing sensitive information.",
+      "Report Vulnerabilities: Responsibly disclose any security issues to the organizers.",
+      "No Flag Patching: Flags must remain unchanged once accessed by others.",
+      "Stay Within Scope: Focus on designated challenges and targets.",
+      "Sportsmanship: Maintain a positive attitude and respect fellow participants.",
+      "Follow Instructions: Pay attention to announcements and guidelines from organizers.",
+      "Enjoy Learning: Embrace the learning experience and have fun!",
+      "Adhering to these rules ensures a fair, enjoyable, and educational CTF experience for all participants.",
     ],
-    prizes: ["EXICITING PRIZES AND REWARDS"],
-    team: "4 Members",
-    fees: "₹250 per team",
-    contactInfo: ["Joel John : 8860198664",
-      "Hridya Catherine Yesudas : 9074461736",],
-    location: "In Front of Canteen",
-    date: "22nd April",
-    note: [""],
+    prizes: ["1st Prize: ₹6000", "2nd Prize: ₹4000"],
+    team: "2 Members",
+    fees: "₹100 per team",
+    contactInfo: ["Joel John : 8860198664", "Hridya Catherine Yesudas : 9074461736",],
+    location: "Network Lab, 1st Floor, CSE Department",
+    date: "9-12pm, 22nd April",
+    note: ["Are you up for the challenge? Join us and let the hacking begin!"],
     link: "",
   },
 
@@ -118,51 +124,40 @@ export const eventsData = [
     category: "Internal",
     description:
       "Unleash your creativity and design prowess in our thrilling 3D Modeling Challenge! Participants are invited to showcase their imagination and technical skills as they craft their own unique 3D models. From stunning architectural marvels to intricate character designs, the possibilities are endless. Let your imagination soar and bring your vision to life in this exhilarating competition.",
-    rules: [
-      "Participants must create their own original 3D model using any software or tool of their choice.",
-      "The 3D model can be of any subject matter, including but not limited to characters, environments, objects, or architectural designs.",
-      "Participants are encouraged to demonstrate creativity, innovation, and technical proficiency in their designs.",
-      "Only individual entries are allowed; team submissions will not be accepted.",
-      "The 3D model must be submitted within the specified time frame, adhering to the deadline provided.",
-      "Participants must adhere to all copyright and intellectual property laws; plagiarism or unauthorized use of third-party assets will result in disqualification.",
-      "Judging criteria will include originality, creativity, technical skill, attention to detail, and overall presentation.",
-      "The decision of the judging panel will be final and binding.",
-      "Participants retain ownership of their creations, but by entering the competition, they grant permission for their work to be displayed and promoted by the event organizers.",
-    ],
+    rules: [],
     prizes: ["1st - something", "2nd - nothing",],
     team: "Individual",
     fees: "₹50",
     contactInfo: [
-      "Pratik Patil : 9370438737",
-      "Dnyanesh Bachhav : 9370735440",
-      "Vishakha Gaurakar : 9158615935",
     ],
     location: "A Building Entrance",
-    date: "20 Feb",
+    date: "20th April",
     note: "",
-    link: "https://docs.google.com/forms/d/e/1FAIpQLSc3xZCzF8NQI0FVZExRSFJEVEuvDRDdV74qNu5tvhNrE4G6cw/viewform",
+    link: "",
     onSpot: "",
   },
 
-  // {
-  //   id: 5,
-  //   image: FlyHigh,
-  //   name: "FLY HIGH SHOW",
-  //   description:
-  //     "An Aerial Show in which an airplane and a drone will be deployed simultaneously in the sky, catching the attention of the people on ground. Below there will be a set from which all these will be launched and controlled. This area will also contain all the information about these projects including Where these are used, How it was made, Components required to make this, Description of components, Budget of the overall project and much more. This will act as a great impression for those who have keen interests in aeronautics and flying objects. Also this event will attract people from far and will add as a great addition to the event",
-  //   rules: ["NA"],
-  //   prizes: ["NA"],
-  //   team: "Individual",
-  //   fees: "Free",
-  //   contactInfo: [
-  //     "Shreyash Vikhare  : 9373742371",
-  //     "Samyak Ghangale : 7499849658",
-  //   ],
-  //   location: "Center Lawn",
-  //   date: "20th Feb (Opening Ceremony)",
-  //   note: [],
-  //   link: "",
-  // },
+  {
+    id: 5,
+    image: fifa,
+    name: "FIFA",
+    category: "Internal",
+    description:
+      "An Aerial Show in which an airplane and a drone will be deployed simultaneously in the sky, catching the attention of the people on ground. Below there will be a set from which all these will be launched and controlled. This area will also contain all the information about these projects including Where these are used, How it was made, Components required to make this, Description of components, Budget of the overall project and much more. This will act as a great impression for those who have keen interests in aeronautics and flying objects. Also this event will attract people from far and will add as a great addition to the event",
+    rules: ["NA"],
+    prizes: ["NA"],
+    team: "Individual",
+    fees: "Free",
+    contactInfo: [
+      "Shreyash Vikhare  : 9373742371",
+      "Samyak Ghangale : 7499849658",
+    ],
+    location: "Center Lawn",
+    date: "20th Feb (Opening Ceremony)",
+    note: [],
+    link: "",
+  },
+
   // {
   //   id: 6,
   //   image: RelayRacing,

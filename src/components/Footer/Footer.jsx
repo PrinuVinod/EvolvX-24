@@ -3,6 +3,7 @@ import EvolvXLogo from "../../assets/Logo.png";
 import azurelogo from "../../assets/azurelogo.png";
 import classes from "./Footer.module.css";
 import cseLogo from "../../assets/cselogo.png";
+import ajceLogo from "../../assets/ajcelogo.png";
 
 const evolvxinsta = "https://www.instagram.com/cseaajce/";
 const evolvxlinkedin = "https://www.ajce.in/cse/index.html";
@@ -62,6 +63,11 @@ const Footer = () => {
                   className={classes.footer_evolvx_image_larger}
                   src={azurelogo}
                   alt="Azure Logo"
+                ></img>
+                <img
+                  className={classes.footer_evolvx_image_larger}
+                  src={ajceLogo}
+                  alt="AJCE Logo"
                 ></img>
             </div>
             {/* <div>

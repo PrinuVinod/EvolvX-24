@@ -1,6 +1,7 @@
 // import Button from "../common/Button/Button";
 import classes from "./About.module.css";
-import about from "./about.svg";
+// import about from "./about.svg";
+import about from "./poster.jpg";
 
 const About = () => {
   return (
