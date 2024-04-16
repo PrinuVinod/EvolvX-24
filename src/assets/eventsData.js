@@ -51,7 +51,7 @@ export const eventsData = [
     location: "Programming Lab, CSE Department",
     date: "22nd April",
     note: [
-      "If any kind of trolling, offending, or misbehaving seen by participants will not be tolerated.",
+      "If any kind of trolling, offending, or misbehaving seen by organizers will not be tolerated.",
     ],
     link: "https://docs.google.com/forms/d/e/1FAIpQLSdWfsQXh1TPW_YVAZ8qVwTBLGMXAau20YO3qKmv_e1YQCDmVg/viewform",
   },
