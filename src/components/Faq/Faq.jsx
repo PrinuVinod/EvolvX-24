@@ -3,7 +3,7 @@ import classes from "./Faq.module.css";
 
 const questions = [
   {
-    question: "What is Byte Me 2k24?",
+    question: "What is EvolvX 2k24?",
     answer:
       "EvolvX '24 is a highly anticipated technical fest organized by the Computer Science and Engineering Association of Amal Jyothi College of Engineering.",
   },

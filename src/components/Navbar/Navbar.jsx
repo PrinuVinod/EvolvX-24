@@ -11,7 +11,6 @@ import { HashLink as Link } from "react-router-hash-link";
 // import Dropdown from "./Dropdown";
 import { HashLink } from "react-router-hash-link";
 import Logo from "../../assets/Logo.png";
-import GrabBitBtn from "../common/GrabBitBtn/GrabBitBtn";
 
 const Scroll = require("react-scroll");
 
@@ -128,18 +127,6 @@ const Navbar = () => {
               </Drop>
             </li>
           </ul>
-
-          {/* <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://grabbits.vercel.app/"
-          >
-            { <button className={classes.btn}>GrabBit</button> }
-            <div className={classes.btn}>
-              <GrabBitBtn label="GrabBit" />
-            </div>
-          </a> */}
-
           <div className={classes.hamburger} onClick={() => setMobile(!mobile)}>
             {mobile ? (
               <FontAwesomeIcon
@@ -154,16 +141,6 @@ const Navbar = () => {
         </div>
 
         <div className={`${!mobile ? classes.none : classes.mobileBox}`}>
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://grabbits.vercel.app/"
-          >
-            {/* <button className={classes.btn1}>GrabBit</button> */}
-            <div className={classes.btn1}>
-              <GrabBitBtn label="GrabBit" />
-            </div>
-          </a>
 
           {/* Mobile Page */}
 
@@ -203,18 +180,7 @@ const Navbar = () => {
             <Link to="/events">
               <li
                 className={`${classes.mobLink}`}
-                // onClick={() => setDrop(!drop)}
               >
-                {/* {drop ? (
-                <Dropdown
-                  click={() => {
-                    setDrop(!drop);
-                    setMobile(!mobile);
-                  }}
-                />
-              ) : (
-                ""
-              )} */}
                 Events
                 <FontAwesomeIcon
                   size="sm"
@@ -228,22 +194,6 @@ const Navbar = () => {
                 />
               </li>
             </Link>
-            <li>
-              <Drop
-                onClick={() => setMobile(!mobile)}
-                activeClass={classes.active}
-                to="ambassador"
-                spy="true"
-                smooth={true}
-                offset={-100}
-                duration={600}
-                style={{ color: "white", textDecoration: "none" }}
-              >
-                <Link className={classes.homeLink} to="/leaderboard">
-                  Leaderboard
-                </Link>
-              </Drop>
-            </li>
             <li>
               <Drop
                 onClick={() => setMobile(!mobile)}

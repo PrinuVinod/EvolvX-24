@@ -18,7 +18,7 @@ const EventSection = () => {
               events and competitions designed to showcase the talents and
               skills of participants while fostering creativity, teamwork, and
               problem-solving abilities. With its focus on technology and
-              innovation, Sambhav truly embodies its name and serves as a
+              innovation, EvolvX truly embodies its name and serves as a
               catalyst for making the impossible possible.
             </p>
             <div className={classes.btn}>

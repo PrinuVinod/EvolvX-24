@@ -10,11 +10,11 @@ const Hero = () => {
     <section id="home" className={classes.hero}>
       <div className={classes.herobox}>
         <div className={classes.headerbox}>
-          {/* <h1 className={classes.heading}>Sambhav</h1> */}
+          {/* <h1 className={classes.heading}>EvolvX</h1> */}
           <img src={text_img} className={classes.text_img} alt="text_img" />
 
           <h4 className={classes.caption}>Let&apos;s make a tech move!</h4>
-          <p className={classes.date}>March 21-22, 2024</p>
+          <p className={classes.date}>March 22 to 24, 2024</p>
           <Link
             className={classes.anchorBtn}
             // target="_blank"
