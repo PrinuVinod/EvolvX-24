@@ -192,7 +192,7 @@ export const eventsData = [
     id: 7,
     image: gamedev,
     name: "Game Development",
-    category: "Internal",
+    category: "External",
     description: ["A workshop on Game Development",],
     rules: "",
     team: "Individual",

@@ -111,7 +111,7 @@ const Navbar = () => {
                 </Link>
               </Drop>
             </li> */}
-            <li className={classes.navLink}>
+            {/* <li className={classes.navLink}>
               <Drop
                 activeClass={classes.active}
                 to="contact"
@@ -125,7 +125,7 @@ const Navbar = () => {
                   Contact
                 </Link>
               </Drop>
-            </li>
+            </li> */}
           </ul>
           <div className={classes.hamburger} onClick={() => setMobile(!mobile)}>
             {mobile ? (
@@ -194,7 +194,7 @@ const Navbar = () => {
                 />
               </li>
             </Link>
-            <li>
+            {/* <li>
               <Drop
                 onClick={() => setMobile(!mobile)}
                 activeClass={classes.active}
@@ -209,7 +209,7 @@ const Navbar = () => {
                   Contact
                 </Link>
               </Drop>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
