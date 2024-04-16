@@ -33,7 +33,7 @@ const Popup = () => {
             <div className={classes.card}>
               <img className={classes.grabbit_image} src={logo} alt="logo" />
               <h2 className={classes.text}>Exploring EvolvX is Free!</h2>
-              <h1 className={classes.subtext}>Most of our Events are free.</h1>
+              <h1 className={classes.subtext}>No, there is not any entry fee to explore EvolvX 2k24 but to participate in some events you have pay registration fee.</h1>
               <div className={classes.btn_container}>
                 <Button
                   onClick={handleClose}
