@@ -168,7 +168,7 @@ const Footer = () => {
               />
             </div>
             <div>
-              <p>9447290939</p>
+              <p>Benita Susan Mathew - 9656408945</p>
             </div>
           </div>
           <div className={classes.footer_contact}>

@@ -1,10 +1,10 @@
 import valorant from "./Events/valorantlogo.jpg";
 import threedm from "./Events/3dm.png";
-import fifa from "./Events/FlyHigh.png";
+import fifa from "./Events/fifa.png";
+import rocketleague from "./Events/rocketleague.png";
+import gamedev from "./Events/gamedev.png";
 import SpaceExpo from "./Events/SpaceExpo.png";
 import RoboRace from "./Events/RoboRace.png";
-import RelayRacing from "./Events/RelayRacing.png";
-import MurderMystery from "./Events/MurderMystery.png";
 import ShotOnQuiz from "./Events/ShotOnQuiz.png";
 import RoboSoccer from "./Events/RoboSoccer.png";
 import DraicPlayground from "./Events/DraicPlayground.png";
@@ -53,7 +53,7 @@ export const eventsData = [
     note: [
       "If any kind of trolling, offending, or misbehaving seen by organizers will not be tolerated.",
     ],
-    link: "https://docs.google.com/forms/d/e/1FAIpQLSdWfsQXh1TPW_YVAZ8qVwTBLGMXAau20YO3qKmv_e1YQCDmVg/viewform",
+    // link: "https://docs.google.com/forms/d/e/1FAIpQLSdWfsQXh1TPW_YVAZ8qVwTBLGMXAau20YO3qKmv_e1YQCDmVg/viewform",
   },
 
   {
@@ -79,7 +79,7 @@ export const eventsData = [
     ],
     prizes: ["1st Prize: ₹6000", "2nd Prize: ₹4000"],
     team: "2 Members",
-    fees: "₹200 per team",
+    fees: "₹250 per team",
     contactInfo: ["Joel John : 8860198664", "Hridya Catherine Yesudas : 9074461736",],
     location: "Network Lab, 1st Floor, CSE Department",
     date: "9-12pm, 22nd April",
@@ -120,17 +120,29 @@ export const eventsData = [
     name: "3D Modelling",
     category: "Internal",
     description:
-      "Unleash your creativity and design prowess in our thrilling 3D Modeling Challenge! Participants are invited to showcase their imagination and technical skills as they craft their own unique 3D models. From stunning architectural marvels to intricate character designs, the possibilities are endless. Let your imagination soar and bring your vision to life in this exhilarating competition.",
-    rules: [],
-    prizes: ["1st - something", "2nd - nothing",],
+      "3D modeling is the art of creating digital representations of objects or scenes using specialized software. It involves shaping geometric forms, adding textures, and adjusting lighting to produce lifelike or stylized images. From architectural designs to character animations, 3D modeling finds applications across various industries, requiring both technical skill and creative vision. In this competition, participants will have the chance to showcase their talent by crafting captivating 3D models within a limited timeframe, with the opportunity to earn recognition and prizes for their work.",
+    rules: [
+      "The competition is only open to students at Amal Jyothi College of Engineering.",
+      "Every participant needs to register for the event via the website, while spot registrations are also accepted.",
+      "Only individual entries are allowed;team entries are not permitted.",
+      "Participants are allowed to use any 3 - D modeling software they are familiar with(no specific platforms).",
+      "Before the competition begins, each participant must bring their own device and install all required software and tools on it.All participants are expected to bring their own devices meeting all prerequisites.",
+      "The competition will last for a duration of 3 hours.Participants must be present for the entire duration of the competition.",
+      "Any form of cheating, plagiarism, or misconduct will result in immediate disqualification.",
+      "Participants must save their work periodically throughout the competition to prevent loss of progress.",
+      "Periodic updation of completed work at regular intervals of 1 hr from commence of competition.",
+      "Theme for the 3-D Model and the judging criteria will be provided on the spot.",
+],
+    prizes: ["1st - 3000", "2nd - 2000",],
     team: "Individual",
     fees: "₹50",
     contactInfo: [
+      "Jeffy Shiju : 8547075215", "Francis Tom : 9562026130"
     ],
-    location: "A Building Entrance",
+    location: "Programming Lab, 1st Floor, CSE Department",
     date: "20th April",
     note: "",
-    link: "",
+    link: "https://shorturl.at/bmoHQ",
     onSpot: "",
   },
 
@@ -140,83 +152,57 @@ export const eventsData = [
     name: "FIFA",
     category: "Internal",
     description:
-      "An Aerial Show in which an airplane and a drone will be deployed simultaneously in the sky, catching the attention of the people on ground. Below there will be a set from which all these will be launched and controlled. This area will also contain all the information about these projects including Where these are used, How it was made, Components required to make this, Description of components, Budget of the overall project and much more. This will act as a great impression for those who have keen interests in aeronautics and flying objects. Also this event will attract people from far and will add as a great addition to the event",
+      "Experience the excitement and passion of the beautiful game in our FIFA tournament, where virtual pitches become arenas for epic showdowns of skill and strategy! Join us as players from all over come together to compete in heart-pounding matches, showcasing their mastery of the virtual turf. Whether you're a seasoned striker or a rookie rising through the ranks, this is your chance to prove yourself on the digital field. With lightning-fast dribbles, precision passes, and thunderous goals, every match promises moments of exhilaration and drama. Get ready to lace up your virtual boots, step onto the pitch, and make your mark in the thrilling world of FIFA gaming!",
     rules: ["NA"],
     prizes: ["NA"],
     team: "Individual",
-    fees: "Free",
+    fees: "₹50",
     contactInfo: [
-      "Shreyash Vikhare  : 9373742371",
-      "Samyak Ghangale : 7499849658",
+      "Aaron Varghese : 7012286659",
+      "Richu S Hussain : 9895141305",
     ],
-    location: "Center Lawn",
-    date: "20th Feb (Opening Ceremony)",
+    location: "Programming Lab, 1st Floor, CSE Department",
+    date: "22nd April",
     note: [],
     link: "",
   },
 
-  // {
-  //   id: 6,
-  //   image: RelayRacing,
-  //   name: "Bot relay race",
-  //   description:
-  //     " A battle between students all around to compete with each other. Each team is typically made up of several robots, each of which is designed for relay races. The robots work together to push a circular 3d ball as a relay, till the end line with each robot completing its task and then passing the 'baton' to the next robot in the team.The goal of the race is for the team of robots to complete the course as quickly and efficiently as possible, with the winning team being the one that crosses the finish line first.",
-  //   rules: [
-  //     "The objective of the game",
-  //     "During 5 minutes four robots of the same team shall drive the maximum number of laps with a relay baton passing it every time in the exchange zone.",
-  //     "Start",
-  //     "At the start all the robots should be in the exchange zone.",
-  //     "When starting, the relay baton should be outside the line limiting the relay zone before the robot which starts to move along the black line first.",
-  //     "After starting up the robot shall drive along the specified black line and when got back to the exchange zone pass the relay baton to the next robot.",
-  //     "During competition the participants are not allowed to touch the robot body and the baton.",
-  //     "Relay baton passing and loosing",
-  //     "Relay baton passing is permitted only in the exchange zone.",
-  //     "The robot which passed the relay baton shall stay in the exchange zone.",
-  //     "Relay baton loosing can occur only outside the exchange zone.",
-  //     "Game over",
-  //     "Robot movement stops in the following situations:",
-  //     "If the robot loses the relay baton.",
-  //     "If the robot leaves the exchange zone without a relay baton.",
-  //     "If the operator touches the robot body or the relay baton.",
-  //     "If any robot loses the line for more than 5 seconds.",
-  //     "If the robot which passed the relay baton leaves the exchange zone after the other robot receives the relay baton.",
-  //     "Finish",
-  //     "Attempt ends after the player puts the baton into the final goal or player exceeds the clock by 5 min.",
-  //   ],
-  //   prizes: ["NA"],
-  //   team: "Team of 4 players will be made at the time or race or it can even be a premade group. Each of the participants will be provided with 1 bot at the time of race.",
-  //   fees: "Rs 99 per team",
-  //   contactInfo: [
-  //     "Ashlesha Lamkhade : 7447577756",
-  //     "Siddhesh Raut : 9420410175",
-  //   ],
-  //   location: "Lawn",
-  //   date: "21st Feb 10:00am onwards",
-  //   note: [""],
-  //   link: "https://docs.google.com/forms/d/e/1FAIpQLScfe2rSolO-FC-q7puLr2ca9UL3o0xDW4UJViqqX5tmDwbrBQ/viewform",
-  // },
-  // {
-  //   id: 7,
-  //   image: MurderMystery,
-  //   name: "Murder Mystery",
-  //   description: [
-  //     "Murder by a time traveler- A Murder Mystery",
-  //     "In the year 2040, a group of college students at a prestigious university are participating in a time travel experiment.",
-  //     "One of the students, John, suddenly disappears and is found dead in his lab, seemingly from a self-inflicted gunshot wound.",
-  //     "Can the detective inside you debunk this mystery and recognize John’s killer?",
-  //   ],
-  //   rules: "",
-  //   prizes: ["Exciting Prizes"],
-  //   team: "Team of MAX 4 members.",
-  //   fees: "Free",
-  //   contactInfo: ["Akash Bharati : 9623986208"],
-  //   location: "A wing Basement",
-  //   date: "20st Feb 10:00am onwards, closes at 11:15am on 20th Feb",
-  //   note: [
-  //     "Registrations link will be available till only the 20th Feb 11:15am after this no registrations will be accepted",
-  //   ],
-  //   link: "https://tinyurl.com/mudermystery",
-  // },
+  {
+    id: 6,
+    image: rocketleague,
+    name: "Rocket Leaque",
+    category: "Internal",
+    description:
+      "Prepare to ignite the arena in the electrifying Rocket League tournament, where skill, strategy, and teamwork collide in a turbo-charged battle of car-based soccer! Join us for an adrenaline-fueled showdown as teams compete head-to-head in a series of high-octane matches, showcasing their mastery of aerial acrobatics, precision driving, and strategic ball control. Whether you're a seasoned veteran or a rookie rocketeer, this is your chance to experience the thrill of competitive gaming at its finest. Strap in, rev your engines, and get ready to take the field by storm in the ultimate Rocket League spectacle!",
+    rules: ["NA"],
+    prizes: ["NA"],
+    team: "3 Members",
+    fees: "₹50",
+    contactInfo: [
+      "Aby Alex : 9037145562",
+      "Siddhesh Raut : 8593926247",
+    ],
+    location: "Project Lab, 2nd Floor, CSE Department",
+    date: "22nd April",
+    note: [""],
+    link: "",
+  },
+
+  {
+    id: 7,
+    image: gamedev,
+    name: "Game Development",
+    category: "Internal",
+    description: ["A workshop on Game Development",],
+    rules: "",
+    team: "Individual",
+    fees: "₹50",
+    contactInfo: ["Rohit S Nair : 8891571171", " Neil Sen Easow : 889106439"],
+    location: "Programming Lab, 1st Floor, CSE Department",
+    date: "22nd April",
+    link: "",
+  },
+
   // {
   //   id: 8,
   //   image: SpeedTypers,
