@@ -53,7 +53,7 @@ export const eventsData = [
     note: [
       "If any kind of trolling, offending, or misbehaving seen by participants will not be tolerated.",
     ],
-    link: "",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSdWfsQXh1TPW_YVAZ8qVwTBLGMXAau20YO3qKmv_e1YQCDmVg/viewform",
   },
 
   {
