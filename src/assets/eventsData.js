@@ -1,5 +1,5 @@
 import valorant from "./Events/valorantlogo.jpg";
-import BlindCoding from "./Events/BlindCoding.png";
+import threedm from "./Events/3dm.png";
 import FlyHigh from "./Events/FlyHigh.png";
 import SpaceExpo from "./Events/SpaceExpo.png";
 import RoboRace from "./Events/RoboRace.png";
@@ -22,8 +22,8 @@ import SpeedTypers from "./Events/SpeedTypers.png";
 import SupercarShow from "./Events/SupercarShow.png";
 import TremblingTower from "./Events/TremblingTower.png";
 import Hackathon from "./Events/Hackathon.png";
-import TreasureHunt from "./Events/TreasureHunt.png";
-import SpinningRival from "./Events/SpinningRival.png";
+import ctf from "./Events/ctf.png";
+import cdc from "./Events/cdc.png";
 import quiz from "./Events/quiz.png";
 
 export const eventsData = [
@@ -31,110 +31,119 @@ export const eventsData = [
     id: 1,
     image: valorant,
     name: "Valour",
-    description:
+    category: "External",
+    description: [
+      "Build a team, Select your agents and gain valour",
       "Step into the electrifying world of VALOUR, where strategy meets precision in the ultimate showdown of skill and teamwork. Dive into the heart-pounding action of VALORANT, a tactical first-person shooter that pushes your limits and tests your mettle like never before. Join forces with your squad, harness the power of unique agents, and outmaneuver your opponents in intense battles where every decision counts. Whether you're a seasoned veteran or a newcomer to the battlefield, VALOUR promises an adrenaline-fueled experience that will leave you on the edge of your seat. Are you ready to rise to the challenge and unleash your valor?",
+    ],
     rules: [
+      "Candidates are required to bring their own systems. If a system is needed, please inform in advance.",
       "Embrace the same rules as in VALORANT's intense game modes, where strategic planning, precise aim, and swift teamwork are paramount for victory.",
     ],
-    prizes: ["1st Prize: ₹7000", "2nd Prize: ₹5000", "3rd Prize: ₹3000"],
-    team: "5",
+    prizes: ["1st Prize: ₹3000", "2nd Prize: ₹2000"],
+    team: "5 Members",
     fees: "₹250 per team",
     contactInfo: [
       "Ben Jhonson : 7306563086",
+      "Christin Abu : 8590794245",
     ],
-    location: "Networking Lab, CSE Department",
-    date: "22nd March",
+    location: "Programming Lab, CSE Department",
+    date: "22nd April",
     note: [
       "Participants are required to bring their own laptop, charger, and additional accessories such as mouse, mousepad, keyboard, and headsets.",
       "If any kind of trolling, offending, or misbehaving seen by participants will not be tolerated.",
     ],
     link: "",
   },
-  // {
-  //   id: 2,
-  //   image: TreasureHunt,
-  //   name: "TREASURE HUNT",
-  //   description:
-  //     "During a logical questions treasure hunt, participants will be given a series of clues or challenges that require logical thinking and problem-solving skills. These clues will be delivered through a variety of formats, such as puzzles, riddles, or logic games, and will require participants to use their critical thinking and reasoning abilities to solve them. As participants solve each clue, they will be led to the next one until they reach the final treasure.",
-  //   rules: [
-  //     "All teams must have at least 2 members and no more than 4 members. Prior Registraations must be given.",
-  //     "Do not open and view the clues prior to the announcement that the hunt has started.",
-  //     "Teams must stay together during the Treasure Hunt and are encouraged to work together to solve the clues and retrieve the points from each location. Teams are encouraged to bring along a notepad so that they can note the answer once they’ve solved the clues.",
-  //     "Teams will be scored on the total value of the clues collected and the amount of time taken. Once all coins are collected teams must return to the finish in order to be counted as finished. Point values will be determined based on the difficulty of the clue.",
-  //     "Teams may or may not use smartphones or mobile internet devices.",
-  //     "The Treasure Hunt begins at 1:00 p.m.",
-  //   ],
-  //   prizes: ["EXICITING PRIZES AND REWARDS"],
-  //   team: "Individual",
-  //   fees: "Free",
-  //   contactInfo: ["Vaishnavi Varkur : 8828090518"],
-  //   location: "A WING",
-  //   date: "21th FEB (Full Day)",
-  //   note: [""],
-  //   link: "https://docs.google.com/forms/d/e/1FAIpQLSehzAtg5Sy5C4B5WkVTeD5SGxLrq0fSKzqdSKLh2UvJQkRVnA/viewform",
-  // },
-  // {
-  //   id: 3,
-  //   image: SpinningRival,
-  //   name: "SPINNING RIVAL",
-  //   description:
-  //     "two challengers go head-to-head in a 1v1 competition. The question to be attempted is randomly chose using “SPIN the WHEEL”. Coding question present on the Spin Wheel.",
-  //   rules: [
-  //     "At a time two participants should be present while spinning the wheel.",
-  //     "When spinning wheel stops, it will indicate to a special coding problem.",
-  //     "An indication will be provided to start solving the coding problem for the two rivals.",
-  //     "The Winner will be decided with an appropriate coding answer provided 5.If both the rivals submitted an appropriate answer, minimum time will be considered as a factor for the results.",
-  //   ],
-  //   prizes: ["EXICITING PRIZES AND REWARDS"],
-  //   team: "Individual",
-  //   fees: "Free",
-  //   contactInfo: [
-  //     "Vedika Sangle : 9578907935",
-  //     "Utkarsha Kesarkar : 7887440601",
-  //   ],
-  //   location: "A WING",
-  //   date: "20th FEB",
-  //   note: [""],
-  //   link: "https://docs.google.com/forms/d/e/1FAIpQLSfW29NpK5FGba-846Sr2WpwXRkc5Aef3cX_60c-eCxobjH2Zg/viewform?usp=sf_link",
-  // },
-  // {
-  //   id: 4,
-  //   image: BlindCoding,
-  //   name: "Blind Coding",
-  //   description:
-  //     "The 'Blind Coding' competition is a unique challenge that tests both coding proficiency and communication skills. Participants will compete in pairs, with one participant tasked with critically analyzing a problem statement and explaining it to their partner who will write the code without being able to see the screen. This event will be held in three rounds, each with its own level of difficulty and point value. Participants will have a maximum of three attempts to score the highest points, with their best score being considered for the final ranking.Not only will this competition showcase your coding abilities, but it will also test your problem-solving skills and your ability to think and communicate under pressure. This is a valuable opportunity to develop and demonstrate your programming knowledge, and to gain valuable experience in coding, communication and teamwork.",
-  //   rules: [
-  //     "Participants are allowed to participate in pair. (Solo or more than 2 students are not allowed).",
-  //     "Inter college grouping for teams is allowed.",
-  //     "Participants need to present on location with their partner to participate in the competition.",
-  //     "PC's / laptops are provided to each participating team",
-  //     "Two participants are seated opposite to each other ( One with keyboard who will not be able to see the monitor screen other with Laptop/monitor screen)",
-  //     "Team member in front of keyboard is not allowed to see the screen",
-  //     "Team member in front of monitor screen is not allowed to type anything on screen.",
-  //     "Team members are allowed to communicate with each other during the problem solving",
-  //     "Each team will be provided with max three chances to compete in competition.",
-  //     "The teams are not allowed to change their partner during their next turns",
-  //     "The level of questions are categorised as Easy, Medium and Hard with the points of 100, 250, 500 respectively",
-  //     "The team has to first solve the Easy, Medium and then only Hard question i.e the previous level of question should be solved successfully before trying for other level of question",
-  //   ],
-  //   prizes: [
-  //     "1st - Keyboard and mouse combo",
-  //     "2nd - Laptop Bag",
-  //     "3rd - Earphones",
-  //   ],
-  //   team: "2",
-  //   fees: "Free",
-  //   contactInfo: [
-  //     "Pratik Patil : 9370438737",
-  //     "Dnyanesh Bachhav : 9370735440",
-  //     "Vishakha Gaurakar : 9158615935",
-  //   ],
-  //   location: "A Building Entrance",
-  //   date: "20 Feb",
-  //   note: "",
-  //   link: "https://docs.google.com/forms/d/e/1FAIpQLSc3xZCzF8NQI0FVZExRSFJEVEuvDRDdV74qNu5tvhNrE4G6cw/viewform",
-  //   onSpot: "",
-  // },
+
+  {
+    id: 2,
+    image: ctf,
+    name: "Capture the Flag",
+    category: "External",
+    description:
+      "Joel John send me the details man",
+    rules: [
+      "All teams must have at least 2 members and no more than 4 members. Prior Registraations must be given.",
+      "Do not open and view the clues prior to the announcement that the hunt has started.",
+      "Teams must stay together during the CTF and are encouraged to work together to solve the clues and retrieve the points from each location. Teams are encouraged to bring along a notepad so that they can note the answer once they’ve solved the clues.",
+      "Teams will be scored on the total value of the clues collected and the amount of time taken. Once all coins are collected teams must return to the finish in order to be counted as finished. Point values will be determined based on the difficulty of the clue.",
+      "Teams may or may not use smartphones or mobile internet devices.",
+    ],
+    prizes: ["EXICITING PRIZES AND REWARDS"],
+    team: "4 Members",
+    fees: "₹250 per team",
+    contactInfo: ["Joel John : 8860198664",
+      "Hridya Catherine Yesudas : 9074461736",],
+    location: "In Front of Canteen",
+    date: "22nd April",
+    note: [""],
+    link: "",
+  },
+
+  {
+    id: 3,
+    image: cdc,
+    name: "Code Crusade",
+    category: "Internal",
+    description:
+      "Welcome to the exhilarating Code Crusade, a code debugging competition where your keen eye for detail and lightning-fast problem-solving skills will be put to the test! Gather round as the projector illuminates a snippet of code riddled with 10 elusive bugs, each waiting to be uncovered. Armed with your trusty laptop and a determined spirit, you have 10 minutes to hunt down and squash as many bugs as you can find. But beware, for every bug you unearth, a point is yours to claim.With each bug discovered, inch closer to the coveted title of Code Crusade champion!But remember, speed and accuracy are key, as the clock ticks away and the competition heats up. Think you have what it takes to emerge victorious in the ultimate battle of bugs ? Join us at Code Crusade and showcase your debugging prowess like never before.",
+    rules: [
+      "Participants are provided with a common laptop connected to a projector, displaying a code snippet containing 10 bugs.",
+      "Each participant has 10 minutes to identify and debug as many bugs as possible.",
+      "For every bug successfully identified, one point is awarded.",
+      "Participants cannot use their own laptops.",
+      "for debugging purposes.",
+      "Any form of cheating or unethical behavior will result in immediate disqualification.",
+      "The participant with the highest number of points at the end of the competition will be declared the winner.",
+      "In case ofa tie, the participant who identified the bugs in the shortest time will be declared the winner ",
+    ],
+    prizes: ["1st Prize: ₹3000", "2nd Prize: ₹2000"],
+    team: "Individual",
+    fees: "₹50",
+    contactInfo: [
+      "Prinu Vinod Nair : 7338267153",
+      "Benita Susan Mathew : 9656408945",
+    ],
+    location: "Advanced System Lab, 2nd Floor, CSE Department",
+    date: "22nd April",
+    note: [""],
+    link: "",
+  },
+
+  {
+    id: 4,
+    image: threedm,
+    name: "3D Modelling",
+    category: "Internal",
+    description:
+      "Unleash your creativity and design prowess in our thrilling 3D Modeling Challenge! Participants are invited to showcase their imagination and technical skills as they craft their own unique 3D models. From stunning architectural marvels to intricate character designs, the possibilities are endless. Let your imagination soar and bring your vision to life in this exhilarating competition.",
+    rules: [
+      "Participants must create their own original 3D model using any software or tool of their choice.",
+      "The 3D model can be of any subject matter, including but not limited to characters, environments, objects, or architectural designs.",
+      "Participants are encouraged to demonstrate creativity, innovation, and technical proficiency in their designs.",
+      "Only individual entries are allowed; team submissions will not be accepted.",
+      "The 3D model must be submitted within the specified time frame, adhering to the deadline provided.",
+      "Participants must adhere to all copyright and intellectual property laws; plagiarism or unauthorized use of third-party assets will result in disqualification.",
+      "Judging criteria will include originality, creativity, technical skill, attention to detail, and overall presentation.",
+      "The decision of the judging panel will be final and binding.",
+      "Participants retain ownership of their creations, but by entering the competition, they grant permission for their work to be displayed and promoted by the event organizers.",
+    ],
+    prizes: ["1st - something", "2nd - nothing",],
+    team: "Individual",
+    fees: "₹50",
+    contactInfo: [
+      "Pratik Patil : 9370438737",
+      "Dnyanesh Bachhav : 9370735440",
+      "Vishakha Gaurakar : 9158615935",
+    ],
+    location: "A Building Entrance",
+    date: "20 Feb",
+    note: "",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSc3xZCzF8NQI0FVZExRSFJEVEuvDRDdV74qNu5tvhNrE4G6cw/viewform",
+    onSpot: "",
+  },
+
   // {
   //   id: 5,
   //   image: FlyHigh,
