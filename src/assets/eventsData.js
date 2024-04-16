@@ -38,6 +38,7 @@ export const eventsData = [
     ],
     rules: [
       "Candidates are required to bring their own systems. If a system is needed, please inform in advance.",
+      "Participants are required to bring their own laptop, charger, and additional accessories such as mouse, mousepad, keyboard, and headsets.",
       "Embrace the same rules as in VALORANT's intense game modes, where strategic planning, precise aim, and swift teamwork are paramount for victory.",
     ],
     prizes: ["1st Prize: ₹3000", "2nd Prize: ₹2000"],
@@ -50,7 +51,6 @@ export const eventsData = [
     location: "Programming Lab, CSE Department",
     date: "22nd April",
     note: [
-      "Participants are required to bring their own laptop, charger, and additional accessories such as mouse, mousepad, keyboard, and headsets.",
       "If any kind of trolling, offending, or misbehaving seen by participants will not be tolerated.",
     ],
     link: "",
