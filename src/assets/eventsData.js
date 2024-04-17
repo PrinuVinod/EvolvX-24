@@ -89,7 +89,7 @@ export const eventsData = [
     date: "10am - 1pm, 22nd April",
     deadline: ["The deadline for registration is Friday, April 19th, 2024, at 8:00 PM."],
     note: ["Any instances of trolling, offending, or misbehavior observed by organizers will be subject to immediate action and will not be tolerated.",],
-    link: "https://docs.google.com/forms/d/e/1FAIpQLScMP0fS-JFS_R_pSptZGZ7I_rlOmIMzxJzJuhrXwZ_JMZqQMw/viewform",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSfp2RylZgCG9qZFSA6oaEWY3fKIv9IMuCo1k3-JIKbol4gm6Q/viewform",
   },
 
   // Code Crusade
