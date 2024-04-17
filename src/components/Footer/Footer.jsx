@@ -23,7 +23,7 @@ const Footer = () => {
             </div>
           </div>
           <p className={classes.footer_evolvex_description}>
-            EvolvX '23 is a highly anticipated technical fest organized by the Computer Science and Engineering Association of Amal Jyothi College of Engineering.
+            EvolvX '24 is a highly anticipated technical fest organized by the Computer Science and Engineering Association of Amal Jyothi College of Engineering.
           </p>
           <div className={classes.footer_social_item}>
             <div>

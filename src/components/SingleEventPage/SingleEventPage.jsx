@@ -10,6 +10,7 @@ const SingleEventPage = () => {
   console.log(eventId);
 
   const requiredEvent = eventsData.find((event) => event.id === +eventId);
+  console.log(requiredEvent);
   const {
     name,
     image,
@@ -25,6 +26,7 @@ const SingleEventPage = () => {
     link,
     onSpot,
     disqualification,
+    deadline,
   } = requiredEvent;
 
   return (
@@ -117,6 +119,20 @@ const SingleEventPage = () => {
                 {note?.map(() => {
                   return <p className={classes.content}>{note}</p>;
                 })}
+              </div>
+            )}
+            {deadline && (
+              <div className={classes.subheading}>
+                <h2 className={classes.headingp}>Deadline</h2>
+                <ul>
+                  {deadline?.map((deadline, i) => {
+                    return (
+                      <li key={i} className={classes.content}>
+                        {deadline}
+                      </li>
+                    );
+                  })}
+                </ul>
               </div>
             )}
             {link !== "" ? (

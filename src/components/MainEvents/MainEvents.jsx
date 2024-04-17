@@ -12,7 +12,6 @@ const MainEvents = () => {
   // Filter events for internal and external categories
   const internalEvents = eventsData.filter((event) => event.category === "Internal");
   const externalEvents = eventsData.filter((event) => event.category === "External");
-
   return (
     <>
       <div className={classes.events_section}>

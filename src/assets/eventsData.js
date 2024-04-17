@@ -43,6 +43,7 @@ export const eventsData = [
       "Embrace the same rules as in VALORANT's intense game modes, where strategic planning, precise aim, and swift teamwork are paramount for victory.",
     ],
     prizes: ["1st Prize: ₹3000", "2nd Prize: ₹2000"],
+    deadline: ["The deadline for registration is Sunday, April 21st, 2024, at 6:00 PM."],
     team: "5 Members",
     fees: "₹250 per team",
     contactInfo: [
@@ -53,8 +54,8 @@ export const eventsData = [
     date: "22nd April",
     note: [
       "Any instances of trolling, offending, or misbehavior observed by organizers will be subject to immediate action and will not be tolerated.",
-      "Registration Deadline is 21th April 2024, Sunday, 6PM",
     ],
+    
     link: "https://docs.google.com/forms/d/e/1FAIpQLSdWfsQXh1TPW_YVAZ8qVwTBLGMXAau20YO3qKmv_e1YQCDmVg/viewform",
   },
 
@@ -65,19 +66,19 @@ export const eventsData = [
     name: "Capture the Flag",
     category: "External",
     description:
-      "Are you ready to put your hacking skills to the test and compete against some of the best minds in the field? The Department of CSE is thrilled to invite you to participate in our upcoming Capture the Flag (CTF) event! Whether you 're a seasoned professional or just starting your journey in the world of hacking, this event is open to all skill levels. Join us for an exhilarating experience where you 'll have the opportunity to showcase your expertise in cybersecurity, problem-solving, and teamwork.",
+      "Are you ready to put your hacking skills to the test and compete against some of the best minds in the field? The Department of CSE is thrilled to invite you to participate in our upcoming Capture the Flag (CTF) event! Whether you're a seasoned professional or just starting your journey in the world of hacking, this event is open to all skill levels. Join us for an exhilarating experience where you'll have the opportunity to showcase your expertise in cybersecurity, problem-solving, and teamwork!",
     rules: [
-      "Know the Rules: Understand the specific guidelines of the competition.",
-      "Be Ethical: Conduct yourself with integrity and avoid unethical behavior.",
-      "No Cheating: Play fair and refrain from using unauthorized tools or techniques.",
-      "Teamwork: Collaborate effectively with your teammates to solve challenges.",
-      "Respect Privacy: Maintain confidentiality and avoid sharing sensitive information.",
-      "Report Vulnerabilities: Responsibly disclose any security issues to the organizers.",
-      "No Flag Patching: Flags must remain unchanged once accessed by others.",
-      "Stay Within Scope: Focus on designated challenges and targets.",
-      "Sportsmanship: Maintain a positive attitude and respect fellow participants.",
-      "Follow Instructions: Pay attention to announcements and guidelines from organizers.",
-      "Enjoy Learning: Embrace the learning experience and have fun!",
+      "Understand the specific guidelines of the competition.",
+      "Conduct yourself with integrity and avoid unethical behavior.",
+      "Play fair and refrain from using unauthorized tools or techniques.",
+      "Collaborate effectively with your teammates to solve challenges.",
+      "Maintain confidentiality and avoid sharing sensitive information.",
+      "Responsibly disclose any security issues to the organizers.",
+      "Flags must remain unchanged once accessed by others.",
+      "Focus on designated challenges and targets.",
+      "Maintain a positive attitude and respect fellow participants.",
+      "Pay attention to announcements and guidelines from organizers.",
+      "Embrace the learning experience and have fun!",
       "Adhering to these rules ensures a fair, enjoyable, and educational CTF experience for all participants.",
     ],
     prizes: ["1st Prize: ₹6000", "2nd Prize: ₹4000"],
@@ -85,10 +86,10 @@ export const eventsData = [
     fees: "₹250 per team",
     contactInfo: ["Joel John : 8860198664", "Hridya Catherine Yesudas : 9074461736",],
     location: "Network Lab, 1st Floor, CSE Department",
-    date: "9-12pm, 22nd April",
-    note: ["Are you up for the challenge? Join us and let the hacking begin!",
-      "Any instances of trolling, offending, or misbehavior observed by organizers will be subject to immediate action and will not be tolerated.",],
-    link: "",
+    date: "10am - 1pm, 22nd April",
+    deadline: ["The deadline for registration is Friday, April 19th, 2024, at 8:00 PM."],
+    note: ["Any instances of trolling, offending, or misbehavior observed by organizers will be subject to immediate action and will not be tolerated.",],
+    link: "https://docs.google.com/forms/d/e/1FAIpQLScMP0fS-JFS_R_pSptZGZ7I_rlOmIMzxJzJuhrXwZ_JMZqQMw/viewform",
   },
 
   // Code Crusade
@@ -141,13 +142,12 @@ export const eventsData = [
     prizes: ["1st - 3000", "2nd - 2000",],
     team: "Individual",
     fees: "₹50",
-    contactInfo: [
-      "Jeffy Shiju : 8547075215", "Francis Tom : 9562026130"
-    ],
+    contactInfo: ["Jeffy Shiju : 8547075215", "Francis Tom : 9562026130"],
     location: "Programming Lab, 1st Floor, CSE Department",
-    date: "20th April",
-    note: "Any instances of trolling, offending, or misbehavior observed by organizers will be subject to immediate action and will not be tolerated.",
-    link: "https://shorturl.at/bmoHQ",
+    date: "22th April",
+    note: ["Any instances of trolling, offending, or misbehavior observed by organizers will be subject to immediate action and will not be tolerated."],
+    deadline: ["The deadline for registration is Sunday, April 21st, 2024, at 6:00 PM."],
+    link: "",
   },
 
   // FIFA
@@ -190,7 +190,7 @@ export const eventsData = [
     location: "Project Lab, 2nd Floor, CSE Department",
     date: "22nd April",
     note: [""],
-    link: "",
+    link: "https://shorturl.at/bmoHQ",
   },
 
   // Game Development
