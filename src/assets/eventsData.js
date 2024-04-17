@@ -115,7 +115,7 @@ export const eventsData = [
     location: "Advanced System Lab, 2nd Floor, CSE Department",
     date: "22nd April",
     note: ["Any instances of trolling, offending, or misbehavior observed by organizers will be subject to immediate action and will not be tolerated."],
-    link: "https://forms.gle/Lh1exCwKQ2dtHSH38",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLScwL1n8XEKxIx74X3S13oV089pA4ekht-4H135-gcqUofx9iA/viewform?usp=sf_link",
   },
 
   // 3D Modelling
@@ -132,7 +132,6 @@ export const eventsData = [
       "Only individual entries are allowed, team entries are not permitted.",
       "Participants are allowed to use any 3-D modeling software they are familiar with (no specific platforms).",
       "Before the competition begins, each participant must bring their own device and install all required software and tools on it.",
-      "All participants are expected to bring their own devices meeting all prerequisites.",
       "The competition will last for a duration of 3 hours. Participants must be present for the entire duration of the competition.",
       "Any form of cheating, plagiarism, or misconduct will result in immediate disqualification.",
       "Participants must save their work periodically throughout the competition to prevent loss of progress.",
