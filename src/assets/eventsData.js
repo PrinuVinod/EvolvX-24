@@ -187,7 +187,6 @@ export const eventsData = [
     fees: "₹50",
     contactInfo: [
       "Aby Alex : 9037145562",
-      "Siddhesh Raut : 8593926247",
     ],
     location: "Project Lab, 2nd Floor, CSE Department",
     date: "22nd April",
