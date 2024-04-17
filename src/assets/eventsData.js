@@ -27,6 +27,7 @@ import cdc from "./Events/cdc.png";
 import quiz from "./Events/quiz.png";
 
 export const eventsData = [
+  // Valorant
   {
     id: 1,
     image: valorant,
@@ -48,14 +49,15 @@ export const eventsData = [
       "Ben Jhonson : 7306563086",
       "Christin Abu : 8590794245",
     ],
-    location: "Programming Lab, CSE Department",
+    location: "Programming Lab, 1st Floor, CSE Department",
     date: "22nd April",
     note: [
-      "If any kind of trolling, offending, or misbehaving seen by organizers will not be tolerated.",
+      "Any instances of trolling, offending, or misbehavior observed by organizers will be subject to immediate action and will not be tolerated.",
     ],
-    // link: "https://docs.google.com/forms/d/e/1FAIpQLSdWfsQXh1TPW_YVAZ8qVwTBLGMXAau20YO3qKmv_e1YQCDmVg/viewform",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSdWfsQXh1TPW_YVAZ8qVwTBLGMXAau20YO3qKmv_e1YQCDmVg/viewform",
   },
 
+  // Capture the Flag
   {
     id: 2,
     image: ctf,
@@ -83,10 +85,12 @@ export const eventsData = [
     contactInfo: ["Joel John : 8860198664", "Hridya Catherine Yesudas : 9074461736",],
     location: "Network Lab, 1st Floor, CSE Department",
     date: "9-12pm, 22nd April",
-    note: ["Are you up for the challenge? Join us and let the hacking begin!"],
+    note: ["Are you up for the challenge? Join us and let the hacking begin!",
+      "Any instances of trolling, offending, or misbehavior observed by organizers will be subject to immediate action and will not be tolerated.",],
     link: "",
   },
 
+  // Code Crusade
   {
     id: 3,
     image: cdc,
@@ -110,10 +114,11 @@ export const eventsData = [
     contactInfo: ["Prinu Vinod Nair : 7338267153", "Benita Susan Mathew : 9656408945",],
     location: "Advanced System Lab, 2nd Floor, CSE Department",
     date: "22nd April",
-    note: [""],
+    note: ["Any instances of trolling, offending, or misbehavior observed by organizers will be subject to immediate action and will not be tolerated."],
     link: "",
   },
 
+  // 3D Modelling
   {
     id: 4,
     image: threedm,
@@ -141,11 +146,11 @@ export const eventsData = [
     ],
     location: "Programming Lab, 1st Floor, CSE Department",
     date: "20th April",
-    note: "",
+    note: "Any instances of trolling, offending, or misbehavior observed by organizers will be subject to immediate action and will not be tolerated.",
     link: "https://shorturl.at/bmoHQ",
-    onSpot: "",
   },
 
+  // FIFA
   {
     id: 5,
     image: fifa,
@@ -154,7 +159,7 @@ export const eventsData = [
     description:
       "Experience the excitement and passion of the beautiful game in our FIFA tournament, where virtual pitches become arenas for epic showdowns of skill and strategy! Join us as players from all over come together to compete in heart-pounding matches, showcasing their mastery of the virtual turf. Whether you're a seasoned striker or a rookie rising through the ranks, this is your chance to prove yourself on the digital field. With lightning-fast dribbles, precision passes, and thunderous goals, every match promises moments of exhilaration and drama. Get ready to lace up your virtual boots, step onto the pitch, and make your mark in the thrilling world of FIFA gaming!",
     rules: ["NA"],
-    prizes: ["NA"],
+    prizes: [],
     team: "Individual",
     fees: "₹50",
     contactInfo: [
@@ -167,6 +172,7 @@ export const eventsData = [
     link: "",
   },
 
+  // Rocket League
   {
     id: 6,
     image: rocketleague,
@@ -175,7 +181,7 @@ export const eventsData = [
     description:
       "Prepare to ignite the arena in the electrifying Rocket League tournament, where skill, strategy, and teamwork collide in a turbo-charged battle of car-based soccer! Join us for an adrenaline-fueled showdown as teams compete head-to-head in a series of high-octane matches, showcasing their mastery of aerial acrobatics, precision driving, and strategic ball control. Whether you're a seasoned veteran or a rookie rocketeer, this is your chance to experience the thrill of competitive gaming at its finest. Strap in, rev your engines, and get ready to take the field by storm in the ultimate Rocket League spectacle!",
     rules: ["NA"],
-    prizes: ["NA"],
+    prizes: [],
     team: "3 Members",
     fees: "₹50",
     contactInfo: [
@@ -188,13 +194,22 @@ export const eventsData = [
     link: "",
   },
 
+  // Game Development
   {
     id: 7,
     image: gamedev,
     name: "Game Development",
     category: "External",
-    description: ["A workshop on Game Development",],
-    rules: "",
+    description: ["This hands - on workshop is designed for aspiring game developers with no prior experience.In just two hours, you 'll learn the essential basics of Unity, a powerful game engine, and build a simple game from scratch. By the end of the workshop, you 'll have:",
+      " *Created a playable game in Unity.",
+      " *Gained a fundamental understanding of core Unity concepts.",
+      " *Learned practical skills applicable to future game development projects.",
+      " *This workshop is a great starting point for your game development journey.It will equip you with the knowledge and confidence to begin exploring Unity and building more complex games on your own.",
+    ],
+    rules: ["Treat your fellow participants and instructors with kindness and respect. This includes being mindful of noise levels and avoiding disruptive behavior.",
+      "All are requested to actively participate and be involved for a better learning experience.No one should hesitate to ask doubts since asking doubts is part of the leaning process.",
+      "Pay attention to the instructor and stay focused on the workshop material.This will help you learn as much as possible from the experience.",
+      "Most importantly, have fun and enjoy the creative process of game development!",],
     team: "Individual",
     fees: "₹50",
     contactInfo: ["Rohit S Nair : 8891571171", " Neil Sen Easow : 889106439"],
