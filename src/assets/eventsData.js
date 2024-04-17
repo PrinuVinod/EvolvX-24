@@ -83,7 +83,7 @@ export const eventsData = [
     ],
     prizes: ["1st Prize: ₹6000", "2nd Prize: ₹4000"],
     team: "2 Members",
-    fees: "₹250 per team",
+    fees: "₹100 per team",
     contactInfo: ["Joel John : 8860198664", "Hridya Catherine Yesudas : 9074461736",],
     location: "Network Lab, 1st Floor, CSE Department",
     date: "10am - 1pm, 22nd April",
