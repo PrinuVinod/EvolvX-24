@@ -3,6 +3,8 @@ import threedm from "./Events/3dm.png";
 import fifa from "./Events/fifa.png";
 import rocketleague from "./Events/rocketleague.png";
 import gamedev from "./Events/gamedev.png";
+import ctf from "./Events/ctf.png";
+import cdc from "./Events/cdc.png";
 import SpaceExpo from "./Events/SpaceExpo.png";
 import RoboRace from "./Events/RoboRace.png";
 import ShotOnQuiz from "./Events/ShotOnQuiz.png";
@@ -22,8 +24,6 @@ import SpeedTypers from "./Events/SpeedTypers.png";
 import SupercarShow from "./Events/SupercarShow.png";
 import TremblingTower from "./Events/TremblingTower.png";
 import Hackathon from "./Events/Hackathon.png";
-import ctf from "./Events/ctf.png";
-import cdc from "./Events/cdc.png";
 import quiz from "./Events/quiz.png";
 
 export const eventsData = [
