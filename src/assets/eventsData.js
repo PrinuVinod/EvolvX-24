@@ -53,6 +53,7 @@ export const eventsData = [
     date: "22nd April",
     note: [
       "Any instances of trolling, offending, or misbehavior observed by organizers will be subject to immediate action and will not be tolerated.",
+      "Registration Deadline is 21th April 2024, Sunday, 6PM",
     ],
     link: "https://docs.google.com/forms/d/e/1FAIpQLSdWfsQXh1TPW_YVAZ8qVwTBLGMXAau20YO3qKmv_e1YQCDmVg/viewform",
   },
@@ -137,7 +138,7 @@ export const eventsData = [
       "Participants must save their work periodically throughout the competition to prevent loss of progress.",
       "Periodic updation of completed work at regular intervals of 1 hr from commence of competition.",
       "Theme for the 3-D Model and the judging criteria will be provided on the spot.",
-],
+    ],
     prizes: ["1st - 3000", "2nd - 2000",],
     team: "Individual",
     fees: "₹50",
