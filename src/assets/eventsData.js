@@ -147,7 +147,7 @@ export const eventsData = [
     date: "22th April",
     note: ["Any instances of trolling, offending, or misbehavior observed by organizers will be subject to immediate action and will not be tolerated."],
     deadline: ["The deadline for registration is Sunday, April 21st, 2024, at 6:00 PM."],
-    link: "https://shorturl.at/bmoHQ",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSdnAMqgnt74nyL44LUNC2H1x5ad9m6k4vgm2jFJ3w2jTrV5NQ/viewform",
   },
 
   // FIFA
