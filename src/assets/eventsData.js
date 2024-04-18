@@ -155,11 +155,9 @@ export const eventsData = [
     id: 5,
     image: fifa,
     name: "FIFA",
-    category: "Internal",
+    category: "Fun Zone",
     description:
       "Experience the excitement and passion of the beautiful game in our FIFA tournament, where virtual pitches become arenas for epic showdowns of skill and strategy! Join us as players from all over come together to compete in heart-pounding matches, showcasing their mastery of the virtual turf. Whether you're a seasoned striker or a rookie rising through the ranks, this is your chance to prove yourself on the digital field. With lightning-fast dribbles, precision passes, and thunderous goals, every match promises moments of exhilaration and drama. Get ready to lace up your virtual boots, step onto the pitch, and make your mark in the thrilling world of FIFA gaming!",
-    rules: ["NA"],
-    prizes: [],
     team: "Individual",
     fees: "₹50",
     contactInfo: [
@@ -168,7 +166,7 @@ export const eventsData = [
     ],
     location: "Programming Lab, 1st Floor, CSE Department",
     date: "22nd April",
-    note: [],
+    note: ["Any instances of trolling, offending, or misbehavior observed by organizers will be subject to immediate action and will not be tolerated."],
     link: "",
   },
 
@@ -177,11 +175,9 @@ export const eventsData = [
     id: 6,
     image: rocketleague,
     name: "Rocket Leaque",
-    category: "Internal",
+    category: "Fun Zone",
     description:
       "Prepare to ignite the arena in the electrifying Rocket League tournament, where skill, strategy, and teamwork collide in a turbo-charged battle of car-based soccer! Join us for an adrenaline-fueled showdown as teams compete head-to-head in a series of high-octane matches, showcasing their mastery of aerial acrobatics, precision driving, and strategic ball control. Whether you're a seasoned veteran or a rookie rocketeer, this is your chance to experience the thrill of competitive gaming at its finest. Strap in, rev your engines, and get ready to take the field by storm in the ultimate Rocket League spectacle!",
-    rules: ["NA"],
-    prizes: [],
     team: "3 Members",
     fees: "₹50",
     contactInfo: [
@@ -189,7 +185,7 @@ export const eventsData = [
     ],
     location: "Project Lab, 2nd Floor, CSE Department",
     date: "22nd April",
-    note: [""],
+    note: ["Any instances of trolling, offending, or misbehavior observed by organizers will be subject to immediate action and will not be tolerated."],
     link: "",
   },
 
