@@ -53,7 +53,7 @@ export const eventsData = [
     location: "Programming Lab, 1st Floor, CSE Department",
     date: "22nd April",
     note: [
-      "Any instances of trolling, offending, or misbehavior observed by organizers will be subject to immediate action and will not be tolerated.",
+      "Any instances of trolling, offending, or misbehavior observed by organizers will be subject to immediate action and will not be tolerated. The event will be conducted only if there are minimum of 3 registered teams or individuals.",
     ],
     
     link: "https://docs.google.com/forms/d/e/1FAIpQLSdWfsQXh1TPW_YVAZ8qVwTBLGMXAau20YO3qKmv_e1YQCDmVg/viewform",
@@ -88,7 +88,7 @@ export const eventsData = [
     location: "Network Lab, 1st Floor, CSE Department",
     date: "10am - 1pm, 22nd April",
     deadline: ["The deadline for registration is Friday, April 19th, 2024, at 8:00 PM."],
-    note: ["Any instances of trolling, offending, or misbehavior observed by organizers will be subject to immediate action and will not be tolerated.",],
+    note: ["Any instances of trolling, offending, or misbehavior observed by organizers will be subject to immediate action and will not be tolerated. The event will be conducted only if there are minimum of 3 registered teams or individuals.", ],
     link: "https://docs.google.com/forms/d/e/1FAIpQLSfp2RylZgCG9qZFSA6oaEWY3fKIv9IMuCo1k3-JIKbol4gm6Q/viewform",
   },
 
@@ -116,7 +116,7 @@ export const eventsData = [
     contactInfo: ["Prinu Vinod Nair : 7338267153", "Benita Susan Mathew : 9656408945",],
     location: "Advanced System Lab, 2nd Floor, CSE Department",
     date: "22nd April",
-    note: ["Any instances of trolling, offending, or misbehavior observed by organizers will be subject to immediate action and will not be tolerated."],
+    note: ["Any instances of trolling, offending, or misbehavior observed by organizers will be subject to immediate action and will not be tolerated. The event will be conducted only if there are minimum of 3 registered teams or individuals."],
     link: "https://docs.google.com/forms/d/e/1FAIpQLScwL1n8XEKxIx74X3S13oV089pA4ekht-4H135-gcqUofx9iA/viewform?usp=sf_link",
   },
 
@@ -146,7 +146,7 @@ export const eventsData = [
     contactInfo: ["Jeffy Shiju : 8547075215", "Francis Tom : 9562026130"],
     location: "Programming Lab, 1st Floor, CSE Department",
     date: "22th April",
-    note: ["Any instances of trolling, offending, or misbehavior observed by organizers will be subject to immediate action and will not be tolerated."],
+    note: ["Any instances of trolling, offending, or misbehavior observed by organizers will be subject to immediate action and will not be tolerated. The event will be conducted only if there are minimum of 3 registered teams or individuals."],
     deadline: ["The deadline for registration is Sunday, April 21st, 2024, at 6:00 PM."],
     link: "https://docs.google.com/forms/d/e/1FAIpQLSdnAMqgnt74nyL44LUNC2H1x5ad9m6k4vgm2jFJ3w2jTrV5NQ/viewform",
   },
@@ -167,7 +167,7 @@ export const eventsData = [
     ],
     location: "Programming Lab, 1st Floor, CSE Department",
     date: "22nd April",
-    note: ["Any instances of trolling, offending, or misbehavior observed by organizers will be subject to immediate action and will not be tolerated."],
+    note: ["Any instances of trolling, offending, or misbehavior observed by organizers will be subject to immediate action and will not be tolerated. The event will be conducted only if there are minimum of 3 registered teams or individuals."],
     link: "",
   },
 
@@ -186,7 +186,7 @@ export const eventsData = [
     ],
     location: "Project Lab, 2nd Floor, CSE Department",
     date: "22nd April",
-    note: ["Any instances of trolling, offending, or misbehavior observed by organizers will be subject to immediate action and will not be tolerated."],
+    note: ["Any instances of trolling, offending, or misbehavior observed by organizers will be subject to immediate action and will not be tolerated. The event will be conducted only if there are minimum of 3 registered teams or individuals."],
     link: "",
   },
 
