@@ -180,7 +180,7 @@ const Footer = () => {
               />
             </div>
             <div>
-              <p className={classes.mail}>evolvxofficial@gmail.com</p>
+              <p className={classes.mail}>benitasusan457422@gmail.com</p>
             </div>
           </div>
         </div>
