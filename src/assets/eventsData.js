@@ -1,30 +1,9 @@
-import valorant from "./Events/valorantlogo.jpg";
 import threedm from "./Events/3dm.png";
+import cdc from "./Events/cdc.png";
+import ctf from "./Events/ctf.png";
 import fifa from "./Events/fifa.png";
 import rocketleague from "./Events/rocketleague.png";
-import gamedev from "./Events/gamedev.png";
-import ctf from "./Events/ctf.png";
-import cdc from "./Events/cdc.png";
-import SpaceExpo from "./Events/SpaceExpo.png";
-import RoboRace from "./Events/RoboRace.png";
-import ShotOnQuiz from "./Events/ShotOnQuiz.png";
-import RoboSoccer from "./Events/RoboSoccer.png";
-import DraicPlayground from "./Events/DraicPlayground.png";
-import HopSites from "./Events/HopSites.png";
-import CodeBuddies from "./Events/CodeBuddies.png";
-import MaskedCoding from "./Events/MaskedCoding.png";
-import Blogathon from "./Events/Blogathon.png";
-import BotBusters from "./Events/BotBusters.png";
-import CadCompetiton from "./Events/CadCompetiton.png";
-import GamingZone from "./Events/GamingZone.png";
-// import KeynoteSession from "./Events/KeynoteSession.png";
-import ReadandType from "./Events/ReadandType.png";
-import SpeedTypers from "./Events/SpeedTypers.png";
-// import web3 from "./Events/Web3.png";
-import SupercarShow from "./Events/SupercarShow.png";
-import TremblingTower from "./Events/TremblingTower.png";
-import Hackathon from "./Events/Hackathon.png";
-import quiz from "./Events/quiz.png";
+import valorant from "./Events/valorantlogo.jpg";
 
 export const eventsData = [
   // Valorant
