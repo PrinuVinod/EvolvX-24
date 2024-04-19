@@ -9,7 +9,6 @@ const MainEvents = () => {
     ReactGA.pageview(window.location.pathname);
   });
 
-  // Filter events for internal and external categories
   const eVents = eventsData.filter((event) => event.category === "Events");
   const funzoneEvents = eventsData.filter((event) => event.category === "Fun Zone");
   return (

@@ -79,7 +79,7 @@ export const eventsData = [
     description:
       "Welcome to the exhilarating Code Crusade, a code debugging competition where your keen eye for detail and lightning-fast problem-solving skills will be put to the test! Gather round as the projector illuminates a snippet of code riddled with 10 elusive bugs, each waiting to be uncovered. Armed with your trusty laptop and a determined spirit, you have 10 minutes to hunt down and squash as many bugs as you can find. But beware, for every bug you unearth, a point is yours to claim.With each bug discovered, inch closer to the coveted title of Code Crusade champion!But remember, speed and accuracy are key, as the clock ticks away and the competition heats up. Think you have what it takes to emerge victorious in the ultimate battle of bugs ? Join us at Code Crusade and showcase your debugging prowess like never before.",
     rules: [
-      "Language : Java",
+      "Language : c-Programming",
       "Participants are provided with a common laptop, displaying a code snippet containing 10 bugs.",
       "Each participant has 10 minutes to identify and debug as many bugs as possible.",
       "For every bug successfully identified, one point is awarded.",
