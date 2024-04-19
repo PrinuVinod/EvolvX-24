@@ -29,6 +29,7 @@ const ContactUs = () => {
               <div className={classes.sponsorItem}>
                 <img src={sponsor1} alt="sponsor1" className={classes.sponsorImage} />
                 <h2>Annet Elisa Mathew</h2>
+                {/* <h3>Phone : 9946357911</h3> */}
               </div>
             </div>
           </div>
