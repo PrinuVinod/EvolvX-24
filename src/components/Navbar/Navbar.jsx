@@ -194,7 +194,7 @@ const Navbar = () => {
                 />
               </li>
             </Link>
-            {/* <li>
+            <li>
               <Drop
                 onClick={() => setMobile(!mobile)}
                 activeClass={classes.active}
@@ -206,10 +206,10 @@ const Navbar = () => {
                 style={{ color: "white", textDecoration: "none" }}
               >
                 <Link className={classes.homeLink} to="/contact">
-                  Contact
+                  Sponsors
                 </Link>
               </Drop>
-            </li> */}
+            </li>
           </ul>
         </div>
       </div>

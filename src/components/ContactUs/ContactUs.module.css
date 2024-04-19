@@ -1,15 +1,14 @@
 .background {
-  width: 100vw;
-  height: auto;
-  background: url(./backGround.svg);
-  background-size: cover;
-  background-repeat: no-repeat;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  padding: 16px;
-  background-color: rgba(0, 0, 0, 0.432);
+  padding-top: 150px;
 }
+
+h2 {
+  margin-bottom: 5px;
+}
+
 /* 
 .registerForm {
   width: 45vw;
@@ -30,8 +29,8 @@
 } */
 
 .card {
-  margin-top: 150px;
-  margin-bottom: 50px;
+  margin-top: 30px;
+  margin-bottom: 20px;
   width: 45vw;
   height: auto;
   /* height: 450px; */
@@ -77,9 +76,10 @@
 }
 
 .heading {
-  margin-top:24px ;
-  font-size: 3vw;
-  font-weight: 600;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  margin-bottom: 10px;
 }
 
 .userData {
@@ -178,4 +178,31 @@
   .background {
     padding: 0px;
   }
+}
+
+.sponsors {
+  display: flex;
+  align-items: center;
+}
+
+.sponsor {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.sponsorItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sponsor img {
+  width: 100px;
+    /* Adjust size as needed */
+    height: 100px;
+    /* Adjust size as needed */
+    border-radius: 50%;
+    /* Makes it a circle */
+    margin-bottom: 10px;
 }
