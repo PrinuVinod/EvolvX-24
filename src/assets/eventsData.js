@@ -2,7 +2,6 @@ import threedm from "./Events/3dm.png";
 import cdc from "./Events/cdc.png";
 import ctf from "./Events/ctf.png";
 import fifa from "./Events/fifa.png";
-import rocketleague from "./Events/rocketleague.png";
 import valorant from "./Events/valorantlogo.jpg";
 
 export const eventsData = [
@@ -108,7 +107,6 @@ export const eventsData = [
     description:
       "3D modeling is the art of creating digital representations of objects or scenes using specialized software. It involves shaping geometric forms, adding textures, and adjusting lighting to produce lifelike or stylized images. From architectural designs to character animations, 3D modeling finds applications across various industries, requiring both technical skill and creative vision. In this competition, participants will have the chance to showcase their talent by crafting captivating 3D models within a limited timeframe, with the opportunity to earn recognition and prizes for their work.",
     rules: [
-      "The competition is only open to students at Amal Jyothi College of Engineering.",
       "Every participant needs to register for the event via the website, while spot registrations are also accepted.",
       "Only individual entries are allowed, team entries are not permitted.",
       "Participants are allowed to use any 3-D modeling software they are familiar with (no specific platforms).",
@@ -123,8 +121,8 @@ export const eventsData = [
     team: "Individual",
     fees: "₹50",
     contactInfo: ["Jeffy Shiju : 8547075215", "Francis Tom : 9562026130"],
-    location: "Programming Lab, 1st Floor, CSE Department",
-    date: "22th April",
+    location: "Networking Lab, 1st Floor, CSE Department",
+    date: "2pm-4.30pm, 22th April",
     note: ["Any instances of trolling, offending, or misbehavior observed by organizers will be subject to immediate action and will not be tolerated. The event will be conducted only if there are minimum of 3 registered teams or individuals."],
     deadline: ["The deadline for registration is Sunday, April 21st, 2024, at 6:00 PM."],
     link: "https://docs.google.com/forms/d/e/1FAIpQLSdnAMqgnt74nyL44LUNC2H1x5ad9m6k4vgm2jFJ3w2jTrV5NQ/viewform",
@@ -151,23 +149,23 @@ export const eventsData = [
   },
 
   // Rocket League
-  {
-    id: 6,
-    image: rocketleague,
-    name: "Rocket Leaque",
-    category: "Fun Zone",
-    description:
-      "Prepare to ignite the arena in the electrifying Rocket League tournament, where skill, strategy, and teamwork collide in a turbo-charged battle of car-based soccer! Join us for an adrenaline-fueled showdown as teams compete head-to-head in a series of high-octane matches, showcasing their mastery of aerial acrobatics, precision driving, and strategic ball control. Whether you're a seasoned veteran or a rookie rocketeer, this is your chance to experience the thrill of competitive gaming at its finest. Strap in, rev your engines, and get ready to take the field by storm in the ultimate Rocket League spectacle!",
-    team: "3 Members",
-    fees: "₹50",
-    contactInfo: [
-      "Aby Alex : 9037145562",
-    ],
-    location: "Project Lab, 2nd Floor, CSE Department",
-    date: "22nd April",
-    note: ["Any instances of trolling, offending, or misbehavior observed by organizers will be subject to immediate action and will not be tolerated. The event will be conducted only if there are minimum of 3 registered teams or individuals."],
-    link: "",
-  },
+  // {
+  //   id: 6,
+  //   image: rocketleague,
+  //   name: "Rocket Leaque",
+  //   category: "Fun Zone",
+  //   description:
+  //     "Prepare to ignite the arena in the electrifying Rocket League tournament, where skill, strategy, and teamwork collide in a turbo-charged battle of car-based soccer! Join us for an adrenaline-fueled showdown as teams compete head-to-head in a series of high-octane matches, showcasing their mastery of aerial acrobatics, precision driving, and strategic ball control. Whether you're a seasoned veteran or a rookie rocketeer, this is your chance to experience the thrill of competitive gaming at its finest. Strap in, rev your engines, and get ready to take the field by storm in the ultimate Rocket League spectacle!",
+  //   team: "3 Members",
+  //   fees: "₹50",
+  //   contactInfo: [
+  //     "Aby Alex : 9037145562",
+  //   ],
+  //   location: "Project Lab, 2nd Floor, CSE Department",
+  //   date: "22nd April",
+  //   note: ["Any instances of trolling, offending, or misbehavior observed by organizers will be subject to immediate action and will not be tolerated. The event will be conducted only if there are minimum of 3 registered teams or individuals."],
+  //   link: "",
+  // },
 
   // Game Development
   // {
