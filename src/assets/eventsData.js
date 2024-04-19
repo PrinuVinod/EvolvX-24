@@ -42,7 +42,7 @@ export const eventsData = [
       "Participants are required to bring their own laptop, charger, and additional accessories such as mouse, mousepad, keyboard, and headsets.",
       "Embrace the same rules as in VALORANT's intense game modes, where strategic planning, precise aim, and swift teamwork are paramount for victory.",
     ],
-    prizes: ["1st Prize: ₹3000", "2nd Prize: ₹2000"],
+    prizes: ["1st Prize: ₹5000", "2nd Prize: ₹2000", "3rd Prize: ₹1000"],
     deadline: ["The deadline for registration is Sunday, April 21st, 2024, at 6:00 PM."],
     team: "5 Members",
     fees: "₹250 per team",
