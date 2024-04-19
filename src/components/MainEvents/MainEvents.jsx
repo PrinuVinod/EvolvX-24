@@ -10,8 +10,7 @@ const MainEvents = () => {
   });
 
   // Filter events for internal and external categories
-  const internalEvents = eventsData.filter((event) => event.category === "Internal");
-  const externalEvents = eventsData.filter((event) => event.category === "External");
+  const eVents = eventsData.filter((event) => event.category === "Events");
   const funzoneEvents = eventsData.filter((event) => event.category === "Fun Zone");
   return (
     <>
@@ -19,17 +18,8 @@ const MainEvents = () => {
         <h1 className={classes.heading}>Events</h1>
         <div className={classes.events_container}>
           <section>
-            <h2>External Events</h2>
             <div className={classes.events_container}>
-              {externalEvents.map((eventData, i) => {
-                return <EventCard eventData={eventData} key={i} />;
-              })}
-            </div>
-          </section>
-          <section>
-            <h2>Internal Events</h2>
-            <div className={classes.events_container}>
-              {internalEvents.map((eventData, i) => {
+              {eVents.map((eventData, i) => {
                 return <EventCard eventData={eventData} key={i} />;
               })}
             </div>

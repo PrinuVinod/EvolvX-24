@@ -32,7 +32,7 @@ export const eventsData = [
     id: 1,
     image: valorant,
     name: "Valour",
-    category: "External",
+    category: "Events",
     description: [
       "Build a team, Select your agents and gain valour",
       "Step into the electrifying world of VALOUR, where strategy meets precision in the ultimate showdown of skill and teamwork. Dive into the heart-pounding action of VALORANT, a tactical first-person shooter that pushes your limits and tests your mettle like never before. Join forces with your squad, harness the power of unique agents, and outmaneuver your opponents in intense battles where every decision counts. Whether you're a seasoned veteran or a newcomer to the battlefield, VALOUR promises an adrenaline-fueled experience that will leave you on the edge of your seat. Are you ready to rise to the challenge and unleash your valor?",
@@ -64,7 +64,7 @@ export const eventsData = [
     id: 2,
     image: ctf,
     name: "Capture the Flag",
-    category: "External",
+    category: "Events",
     description:
       "Are you ready to put your hacking skills to the test and compete against some of the best minds in the field? The Department of CSE is thrilled to invite you to participate in our upcoming Capture the Flag (CTF) event! Whether you're a seasoned professional or just starting your journey in the world of hacking, this event is open to all skill levels. Join us for an exhilarating experience where you'll have the opportunity to showcase your expertise in cybersecurity, problem-solving, and teamwork!",
     rules: [
@@ -97,7 +97,7 @@ export const eventsData = [
     id: 3,
     image: cdc,
     name: "Code Crusade",
-    category: "Internal",
+    category: "Events",
     description:
       "Welcome to the exhilarating Code Crusade, a code debugging competition where your keen eye for detail and lightning-fast problem-solving skills will be put to the test! Gather round as the projector illuminates a snippet of code riddled with 10 elusive bugs, each waiting to be uncovered. Armed with your trusty laptop and a determined spirit, you have 10 minutes to hunt down and squash as many bugs as you can find. But beware, for every bug you unearth, a point is yours to claim.With each bug discovered, inch closer to the coveted title of Code Crusade champion!But remember, speed and accuracy are key, as the clock ticks away and the competition heats up. Think you have what it takes to emerge victorious in the ultimate battle of bugs ? Join us at Code Crusade and showcase your debugging prowess like never before.",
     rules: [
@@ -125,7 +125,7 @@ export const eventsData = [
     id: 4,
     image: threedm,
     name: "3D Modelling",
-    category: "Internal",
+    category: "Events",
     description:
       "3D modeling is the art of creating digital representations of objects or scenes using specialized software. It involves shaping geometric forms, adding textures, and adjusting lighting to produce lifelike or stylized images. From architectural designs to character animations, 3D modeling finds applications across various industries, requiring both technical skill and creative vision. In this competition, participants will have the chance to showcase their talent by crafting captivating 3D models within a limited timeframe, with the opportunity to earn recognition and prizes for their work.",
     rules: [
