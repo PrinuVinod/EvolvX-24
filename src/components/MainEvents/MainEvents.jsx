@@ -35,7 +35,7 @@ const MainEvents = () => {
             </div>
           </section>
           <section>
-            <h2>Fuz Zone</h2>
+            <h2>Fun Zone</h2>
             <div className={classes.events_container}>
               {funzoneEvents.map((eventData, i) => {
                 return <EventCard eventData={eventData} key={i} />;
