@@ -146,7 +146,6 @@ h2 {
   } */
   .card,.card2{
     width: 90vw;
-    margin-right: 16px;
   }
   .card2{
     padding: 36px 8px 8px 8px;
@@ -155,6 +154,7 @@ h2 {
   .heading {
     font-size: 4vh;
     font-weight: 600;
+    margin-top: 70px;
   }
 
   .userData {
