@@ -3,6 +3,8 @@ import cdc from "./Events/cdc.png";
 import ctf from "./Events/ctf.png";
 import fifa from "./Events/fifa.png";
 import valorant from "./Events/valorantlogo.jpg";
+import gamedev from "./Events/gamedev.png"
+import rocketleague from "./Events/rocketleague.png"
 
 export const eventsData = [
   // Valorant
@@ -33,8 +35,7 @@ export const eventsData = [
     note: [
       "Any instances of trolling, offending, or misbehavior observed by organizers will be subject to immediate action and will not be tolerated. The event will be conducted only if there are minimum of 3 registered teams or individuals.",
     ],
-    
-    link: "https://docs.google.com/forms/d/e/1FAIpQLSdWfsQXh1TPW_YVAZ8qVwTBLGMXAau20YO3qKmv_e1YQCDmVg/viewform",
+    link: "",
   },
 
   // Capture the Flag
@@ -67,7 +68,7 @@ export const eventsData = [
     date: "10am - 1pm, 22nd April",
     deadline: ["The deadline for registration is Friday, April 19th, 2024, at 8:00 PM."],
     note: ["Any instances of trolling, offending, or misbehavior observed by organizers will be subject to immediate action and will not be tolerated. The event will be conducted only if there are minimum of 3 registered teams or individuals.", ],
-    link: "https://docs.google.com/forms/d/e/1FAIpQLSfp2RylZgCG9qZFSA6oaEWY3fKIv9IMuCo1k3-JIKbol4gm6Q/viewform",
+    link: "",
   },
 
   // Code Crusade
@@ -95,7 +96,7 @@ export const eventsData = [
     location: "Advanced System Lab, 2nd Floor, CSE Department",
     date: "22nd April",
     note: ["Any instances of trolling, offending, or misbehavior observed by organizers will be subject to immediate action and will not be tolerated. The event will be conducted only if there are minimum of 3 registered teams or individuals."],
-    link: "https://docs.google.com/forms/d/e/1FAIpQLScwL1n8XEKxIx74X3S13oV089pA4ekht-4H135-gcqUofx9iA/viewform?usp=sf_link",
+    link: "",
   },
 
   // 3D Modelling
@@ -125,7 +126,7 @@ export const eventsData = [
     date: "2pm-4.30pm, 22th April",
     note: ["Any instances of trolling, offending, or misbehavior observed by organizers will be subject to immediate action and will not be tolerated. The event will be conducted only if there are minimum of 3 registered teams or individuals."],
     deadline: ["The deadline for registration is Sunday, April 21st, 2024, at 6:00 PM."],
-    link: "https://docs.google.com/forms/d/e/1FAIpQLSdnAMqgnt74nyL44LUNC2H1x5ad9m6k4vgm2jFJ3w2jTrV5NQ/viewform",
+    link: "",
   },
 
   // FIFA
@@ -149,47 +150,47 @@ export const eventsData = [
   },
 
   // Rocket League
-  // {
-  //   id: 6,
-  //   image: rocketleague,
-  //   name: "Rocket Leaque",
-  //   category: "Fun Zone",
-  //   description:
-  //     "Prepare to ignite the arena in the electrifying Rocket League tournament, where skill, strategy, and teamwork collide in a turbo-charged battle of car-based soccer! Join us for an adrenaline-fueled showdown as teams compete head-to-head in a series of high-octane matches, showcasing their mastery of aerial acrobatics, precision driving, and strategic ball control. Whether you're a seasoned veteran or a rookie rocketeer, this is your chance to experience the thrill of competitive gaming at its finest. Strap in, rev your engines, and get ready to take the field by storm in the ultimate Rocket League spectacle!",
-  //   team: "3 Members",
-  //   fees: "₹50",
-  //   contactInfo: [
-  //     "Aby Alex : 9037145562",
-  //   ],
-  //   location: "Project Lab, 2nd Floor, CSE Department",
-  //   date: "22nd April",
-  //   note: ["Any instances of trolling, offending, or misbehavior observed by organizers will be subject to immediate action and will not be tolerated. The event will be conducted only if there are minimum of 3 registered teams or individuals."],
-  //   link: "",
-  // },
+  {
+    id: 6,
+    image: rocketleague,
+    name: "Rocket Leaque",
+    category: "Fun Zone",
+    description:
+      "Prepare to ignite the arena in the electrifying Rocket League tournament, where skill, strategy, and teamwork collide in a turbo-charged battle of car-based soccer! Join us for an adrenaline-fueled showdown as teams compete head-to-head in a series of high-octane matches, showcasing their mastery of aerial acrobatics, precision driving, and strategic ball control. Whether you're a seasoned veteran or a rookie rocketeer, this is your chance to experience the thrill of competitive gaming at its finest. Strap in, rev your engines, and get ready to take the field by storm in the ultimate Rocket League spectacle!",
+    team: "3 Members",
+    fees: "₹50",
+    contactInfo: [
+      "Aby Alex : 9037145562",
+    ],
+    location: "Project Lab, 2nd Floor, CSE Department",
+    date: "22nd April",
+    note: ["Any instances of trolling, offending, or misbehavior observed by organizers will be subject to immediate action and will not be tolerated. The event will be conducted only if there are minimum of 3 registered teams or individuals."],
+    link: "",
+  },
 
   // Game Development
-  // {
-  //   id: 7,
-  //   image: gamedev,
-  //   name: "Game Development",
-  //   category: "External",
-  //   description: ["This hands - on workshop is designed for aspiring game developers with no prior experience.In just two hours, you 'll learn the essential basics of Unity, a powerful game engine, and build a simple game from scratch. By the end of the workshop, you 'll have:",
-  //     " *Created a playable game in Unity.",
-  //     " *Gained a fundamental understanding of core Unity concepts.",
-  //     " *Learned practical skills applicable to future game development projects.",
-  //     " *This workshop is a great starting point for your game development journey.It will equip you with the knowledge and confidence to begin exploring Unity and building more complex games on your own.",
-  //   ],
-  //   rules: ["Treat your fellow participants and instructors with kindness and respect. This includes being mindful of noise levels and avoiding disruptive behavior.",
-  //     "All are requested to actively participate and be involved for a better learning experience.No one should hesitate to ask doubts since asking doubts is part of the leaning process.",
-  //     "Pay attention to the instructor and stay focused on the workshop material.This will help you learn as much as possible from the experience.",
-  //     "Most importantly, have fun and enjoy the creative process of game development!",],
-  //   team: "Individual",
-  //   fees: "₹50",
-  //   contactInfo: ["Rohit S Nair : 8891571171", " Neil Sen Easow : 889106439"],
-  //   location: "Programming Lab, 1st Floor, CSE Department",
-  //   date: "22nd April",
-  //   link: "",
-  // },
+  {
+    id: 7,
+    image: gamedev,
+    name: "Game Development",
+    category: "External",
+    description: ["This hands - on workshop is designed for aspiring game developers with no prior experience.In just two hours, you 'll learn the essential basics of Unity, a powerful game engine, and build a simple game from scratch. By the end of the workshop, you 'll have:",
+      " *Created a playable game in Unity.",
+      " *Gained a fundamental understanding of core Unity concepts.",
+      " *Learned practical skills applicable to future game development projects.",
+      " *This workshop is a great starting point for your game development journey.It will equip you with the knowledge and confidence to begin exploring Unity and building more complex games on your own.",
+    ],
+    rules: ["Treat your fellow participants and instructors with kindness and respect. This includes being mindful of noise levels and avoiding disruptive behavior.",
+      "All are requested to actively participate and be involved for a better learning experience.No one should hesitate to ask doubts since asking doubts is part of the leaning process.",
+      "Pay attention to the instructor and stay focused on the workshop material.This will help you learn as much as possible from the experience.",
+      "Most importantly, have fun and enjoy the creative process of game development!",],
+    team: "Individual",
+    fees: "₹50",
+    contactInfo: ["Rohit S Nair : 8891571171", " Neil Sen Easow : 889106439"],
+    location: "Programming Lab, 1st Floor, CSE Department",
+    date: "22nd April",
+    link: "",
+  },
 
   // {
   //   id: 8,
